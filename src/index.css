@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #2970ff;
+    padding: 1rem 1.5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.logo{
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0;
+ 
+}
+.link{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.link:hover{
+    opacity: 1;
+}
+.wrapper,.charts-wrapper{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.signup-wrapper{
+width: 70%;
+ max-width: 400px;
+height: auto;
+box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+border-radius: 1rem;
+padding: 2rem 2rem;
+color: black;
+}
+.titel{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.input-wrapper{
+    margin-bottom: 1.5rem;
+}
+.label-input{
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+.custominput{
+    border-width: 0;
+    border-bottom-width: 1px;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.custominput:focus{
+outline: none;
+opacity: 1;
+transition: all 0.2s;
+}
+.custominput::placeholder{
+    color: grey;
+}
+.btn{
+    color: #2970ff;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 1rem 0rem;
+    padding: 0.5rem !important;
+    background-color: white;
+    border: 1px solid #2970ff;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: auto !important;
+}
+.btn:hover{
+    background-color: #2970ff;
+    color: white;
+    transition: all 0.3s;
+}
+.btn-blue{
+    background-color: #2970ff;
+    color: white;
+}
+.btn-blue:hover{
+    background-color: white !important;
+    
+    color: #2970ff !important;
+    transition: all 0.3s;
+}
+.p-login{
+    text-align: center;
+    font-Size : 0.8rem;
+    font-Weight:300;
+    margin:0;
+    cursor: pointer;
+    
+}
+.my-card{
+ box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+min-width: 350 ;
+margin: 2rem;
+border-radius: 0.5rem;
+flex: 1;
+margin-left: 2rem;
+}    
+
+.ant-card-head-titel{
+    margin: 0rem !important;
+    font-weight: 500;
+
+}
+.my-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+}
+.my-card p {
+    margin: 0;
+}
+input{
+    font-family: "Montserrat",sans-serif;
+}
+.custom-input{
+    border: 0px;
+    border-bottom: 1px solid black;
+    padding: 0.5rem, 0rem;
+    width: 100%;
+    border-radius: 0;
+}
+.custom-input{
+    margin-top: -1rem !important;
+}
+.custom-input::placeholder{
+color: rgba(0,0,0,0.5);
+}
+.custom-input:focus{
+    outline: none;
+    opacity: 1;
+    transition: all 0.3s;
+}
+.input-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    box-shadow: 0px 0px 30px 8px rgba(227, 227,227,0.75);
+    border-radius: 0.5rem;
+    padding: 0rem 0.5rem;
+}
+.input-flex input{
+    width: 100%;
+    padding: 0.5rem;
+    border: 0;
+}
+.input-flex input:focus{
+    outline: none;
+}
+.select-input{
+    width: 30%;
+    margin-right: 10;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 30px 8px rgba(227, 227,227,0.75);
+    border-radius: 0.5rem !important;
+    padding: 0.2rem 0.5rem;
+}
+/* .select-input-2 > div{
+    border-width: 0px !important;
+    border-bottom: 1px !important;
+    border-radius: 0 !important;
+    border-color: #0000 !important;
+} */
+.select-input > {
+    border: 0px solid #ffff !important;
+}
+.charts-wrappper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+.charts-wrappper {
+  justify-content: space-between;
+  height: auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+  margin: 2rem;
+  width: 90%;
+}
+.line-chart h1 {
+  margin-top: 0;
+  font-weight: 500;
+}
+.line-chart {
+  width: 70%;
+}
+.pie-chart{
+  margin: 0;
+}
+.pie-chart h1{
+  text-align: center;
+  margin-top: 0;
+  font-weight: 500;
+}
+.titel{
+    margin-right: 500px;
+    font-weight: 700;
+    font-size: 30px
+
+}
+.input-data{
+    padding: 2rem;
+    font-weight: 100;
+
+}
